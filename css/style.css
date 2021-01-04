@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -12,25 +17,68 @@ img {
 .container {
     width: 1140px;
     margin: auto;
+    overflow: hidden;
 }
 
-.heading {
+/* Header Start Here */
+header {
+    background: url(../images/top-banner.png);
+    background-size: Content;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+}
+
+.header-content {
     margin-top: 50px;
+    width: 50%;
+    float: left;
 }
 
-.heading span {
+.header-images {
+    width: 40%;
+    float: right;
+}
+
+.header-content span {
     color: #ff8c39;
 }
 
-.heading h1 {
+.header-content h1 {
     color: #2f2f2f;
     font-weight: 700;
     font-size: 45px;
     margin: 0;
 }
 
-p {
+.header-content h3 {
+    color: #2f2f2f;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.header-content p {
     font-size: 16px;
     color: grey;
     font-weight: 300;
+}
+
+.header-content a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 24px;
+    border: 1px solid #fff0;
+    border-radius: 4px;
+    margin-top: 40px;
+    color: white;
+    background: linear-gradient(45deg, #ff8c39, #fb5a4b);
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.header-content a:hover {
+    border: 1px solid #fff0;
+    background: linear-gradient(-45deg, #ff8c39, #fb5a4b);
 }
