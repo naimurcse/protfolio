@@ -47,7 +47,6 @@ header {
     color: #2f2f2f;
     font-weight: 700;
     font-size: 45px;
-    margin: 0;
 }
 
 .header-content h3 {
@@ -62,6 +61,7 @@ header {
     font-size: 16px;
     color: grey;
     font-weight: 300;
+    line-height: 1.8;
 }
 
 .header-content a {
@@ -82,3 +82,67 @@ header {
     border: 1px solid #fff0;
     background: linear-gradient(-45deg, #ff8c39, #fb5a4b);
 }
+
+/* Dream Section Start */
+.dream-section {
+    padding: 60px 0;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-images {
+    width: 40%;
+    float: left;
+}
+
+.dream-images img {}
+
+.dream-content {
+    width: 50%;
+    float: right;
+    margin-top: 40px;
+}
+
+.dream-content h2 {
+    color: #2f2f2f;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.dream-content h3 {
+    color: #2f2f2f;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.dream-content p {
+    font-size: 16px;
+    color: grey;
+    font-weight: 300;
+    line-height: 1.8;
+    width: 95%;
+}
+
+.dream-content a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 24px;
+    border: 1px solid #fff0;
+    border-radius: 4px;
+    margin-top: 40px;
+    color: white;
+    background: linear-gradient(45deg, #ff8c39, #fb5a4b);
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.dream-content a:hover {
+    border: 1px solid #fff0;
+    background: linear-gradient(-45deg, #ff8c39, #fb5a4b);
+}
+
+/* Dream Section End */
