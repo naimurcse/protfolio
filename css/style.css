@@ -1,6 +1,36 @@
-h1 {
-    color: rgb(226, 43, 113);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
-p{
-    color: chocolate;
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.heading {
+    margin-top: 50px;
+}
+
+.heading span {
+    color: #ff8c39;
+}
+
+.heading h1 {
+    color: #2f2f2f;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    color: grey;
+    font-weight: 300;
 }
